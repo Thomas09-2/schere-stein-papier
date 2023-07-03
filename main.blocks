@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="X2AhW[^j+Pom=GTB`{pp">sprite</variable></variables><block type="pxt-on-start" id="+o!6Vsi^#=|I:~3[_moQ" x="0" y="0"/><block type="device_forever" id="PG(N8~LDbF#ylZj0grZK" x="213" y="189"/><block type="device_gesture_event" id="RvpFEA0s_.(UjDuqn^!Y" x="35" y="388"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="game_set_score" id=":gv{FF~V#Fznl-tP=]{d"><value name="points"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="@B5ph1DH=cyJk%{+0,Z2"><value name="min"><shadow type="math_number" id="sGQA*11cEOAq+/W6$E+?"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="*`gMf7sL@w9{!D1|ern#"><field name="NUM">3</field></shadow></value></block></value><next><block type="controls_if" id="E@3vG}/nLgmN!,ZlCKIp"><mutation elseif="1" else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="Y6Q%Fh0sqfhDJNa?x%s="><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="game_score" id="/KOKB93i+S02tt:`Eprp"/></value><value name="B"><shadow type="math_number" id="l!I3bt~MsCWY[|UNIM6U"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id=".*,RMfb4EP5qSK3L9Zr:"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="device_pause" id="(I0X9w=jz1wnCPQN2m.~"><value name="pause"><shadow type="timePicker" id="m.v23WsVbh|Ig-z=b%h2"><field name="ms">3000</field></shadow></value><next><block type="device_clear_display" id="0}27E(Lkrv*Tcvn=fA.x"/></next></block></next></block></statement><value name="IF1"><block type="logic_compare" id="o[)C)|MqeaXX-a%O*@ph"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="game_score" id="R$jg_C8~WU48j+)up!^R"/></value><value name="B"><shadow type="math_number" id="evm!2h*GIhuON[0O:Q~:"><field name="NUM">2</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="Ju#B(M?a_+*Igc7UR2:m"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # # # # # 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_pause" id="SIwH6-,IlsEE?|90f%fz"><value name="pause"><shadow type="timePicker" id="}3Ei73(7rvNj#ZuUCay-"><field name="ms">3000</field></shadow></value><next><block type="device_clear_display" id="Wi6AV_2FF2*Pz]A4;`aq"/></next></block></next></block></statement><statement name="ELSE"><block type="device_show_leds" id="HC|1Csl]nUq=0C32?6SQ"><field name="LEDS">`
+        # # . . # 
+        # # . # . 
+        . . # . . 
+        # # . # . 
+        # # . . #
+        `</field><next><block type="device_pause" id="ep:%z~y%d0`gS*0cYuYH"><value name="pause"><shadow type="timePicker" id="zieMSJ8]DG9rU=QM,)8N"><field name="ms">3000</field></shadow></value><next><block type="device_clear_display" id="*;hN:4L_4)8IU]RUEbz?"/></next></block></next></block></statement></block></next></block></statement></block></xml>
